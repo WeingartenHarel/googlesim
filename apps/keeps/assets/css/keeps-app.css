@@ -1,0 +1,15 @@
+
+
+.keeps-app{
+    /* border:1px solid black; */
+   width:100%;
+   position: relative;
+   background: #fff;
+}
+
+
+.keeps-app-container{
+    max-width:1600px;
+    margin:auto;
+    
+}

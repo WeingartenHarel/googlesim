@@ -1,0 +1,57 @@
+
+
+.note-txt-display{
+    border-radius:5px;
+    max-width:300px;
+    min-height:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-wrap: break-word;
+    padding:1px;
+    overflow:hidden;
+    margin:auto;
+    transition: .3s;
+    box-shadow: 1px 1px 1px rgb(221, 221, 221);
+    
+}
+
+.note-txt-display button{
+    border:none;
+    background-color: transparent;
+    color:rgb(61, 61, 61);
+    font-size:1rem;
+    outline: none;
+    
+}
+
+.note-txt-display button:hover{
+    color:rgb(0, 0, 0);
+}
+
+.note-txt-display h1{
+    margin-top:.1rem;
+    padding:1rem;
+}
+
+
+
+.note-txt-display:hover{
+    box-shadow: 1px 1px 5px  rgb(175, 175, 175);
+}
+
+@media(max-width:675px){
+    .note-txt-display{
+        min-width:300px;
+        max-width: 400px;
+        min-height:100px;
+    }
+}
+
+@media(max-width:443px){
+    .note-txt-display{
+       max-width:100px;
+        
+        min-height:100px;
+    }
+}

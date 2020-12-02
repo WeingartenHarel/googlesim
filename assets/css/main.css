@@ -1,0 +1,100 @@
+@import url("../../apps/email/assets/css/main.css");
+@import url('../../apps/keeps/assets/css/main.css'); /*this import KEEPS main css file*/
+@import url('../../apps/books/css/main.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* use with - font-family: 'Roboto', sans-serif; */
+
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: #fff;
+    background-image: url(../img/backgound.png);
+    background-size: cover;
+}
+
+.mainNav nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainApp .mainlink {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    width: min-content;
+    transition: .3s ease-in-out;
+}
+
+.mainApp .mainlink:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.linkHome {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    width: min-content;
+    border-bottom: 1px solid #64b5f6;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.linkHome .name{
+    text-align: left;
+}
+
+.mainNav .mainlink img{
+    max-width: 200px;
+}
+
+.name {
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+.books-logo{
+    width:200px;
+}
+
+.footer{
+    margin-top: 60px;
+    background: #ffa500;
+    color: #000;
+    padding: 30px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align-last: center;
+    z-index: 0;
+}
+/************** MAIN PAGE OPTIONAL DESIGN *******************/
+.main-logo{
+    font-size:3rem;
+    color:orange;
+}
+.mainNav nav > *{
+    margin:2rem;
+}
+
+
+
+@media only screen and (min-width: 720px) {
+    section.mainNav {
+        height: 100vh;
+    }
+    .mainNav nav{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
