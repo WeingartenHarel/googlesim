@@ -65,7 +65,7 @@ body{
 .books-logo{
     width:200px;
 }
-
+ 
 .footer{
     margin-top: 60px;
     background: #ffa500;
@@ -79,8 +79,8 @@ body{
 }
 /************** MAIN PAGE OPTIONAL DESIGN *******************/
 .main-logo{
-    font-size:3rem;
-    color:orange;
+    font-size:3rem;   
+    color:#4285f4;
 }
 .mainNav nav > *{
     margin:2rem;
