@@ -1,6 +1,6 @@
 import { myRouter } from '../js/routes.js'
 import footerPage from '../js/pages/footer.cmp.js'
-
+// remark
 const options = {
     el: '#app',
     router: myRouter,
@@ -9,9 +9,9 @@ const options = {
             <!-- <h1>My App</h1> -->
         <router-link class="linkHome" to="/" exact>
             <!--- <img class="logo" src="assets/img/google_logo.svg"/> --->
-            <h1 class="main-logo">Appsus</h1>
+            <h1 class="main-logo">Google SIM</h1>
             <div class="name">< Home</div>
-        </router-link>
+        </router-link  >
             
  
             <main>
